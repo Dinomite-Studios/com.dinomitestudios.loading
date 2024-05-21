@@ -1,0 +1,34 @@
+{
+  "name": "com.dinomitestudios.loading",
+  "displayName": "Dinomite.Loading",
+  "description": "A service framework service aiding with smooth scene transitions and loading operations in Unity.",
+  "version": "1.0.0",
+  "documentationUrl": "https://github.com/Dinomite-Studios/com.dinomitestudios.loading/blob/main/README.md",
+  "changelogUrl": "https://github.com/Dinomite-Studios/com.dinomitestudios.loading/releases",
+  "licensesUrl": "https://github.com/Dinomite-Studios/com.dinomitestudios.loading/blob/main/LICENSE.md",
+  "unity": "2023.3",
+  "keywords": [
+    "Loading"
+  ],
+  "bugs": {
+    "url": "https://github.com/Dinomite-Studios/com.dinomitestudios.loading/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dinomite-Studios/com.dinomitestudios.loading"
+  },
+  "homepage": "https://www.dinomitestudios.com/",
+  "author": {
+    "name": "Dinomite Studios",
+    "email": "info@dinomitestudios.com",
+    "url": "https://www.dinomitestudios.com/"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "dependencies": {
+    "com.realitycollective.service-framework": "1.0.7",
+    "com.unity.render-pipelines.universal": "17.0.3"
+  }
+}
